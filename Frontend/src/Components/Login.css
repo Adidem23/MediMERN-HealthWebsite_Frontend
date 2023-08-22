@@ -1,0 +1,51 @@
+#Faltudiv{
+    background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2620.jpg?size=626&ext=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#faltu2{
+    background-image: url('../Images/Back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-gap: 20px;
+    text-align: center;
+    justify-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] ,
+input[type="password"]{
+    width: 80%;
+    padding:10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ 
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px; 
+    height: 40px; 
+} 
+
+button:hover {
+    background-color: #45a049;
+}
